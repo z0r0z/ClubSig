@@ -15,7 +15,7 @@ interface ERC721TokenReceiver {
 }
 
 /// @notice Modern and gas efficient ERC-721 + ERC-20/EIP-2612-like implementation.
-abstract contract ERC721 {
+abstract contract ERC721initializable {
     /*///////////////////////////////////////////////////////////////
                                  EVENTS
     //////////////////////////////////////////////////////////////*/
